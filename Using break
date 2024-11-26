@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int x = 2;
+    
+    switch (x) {
+        case 1:
+            printf("Case 1\n");
+            break;  // Exit switch after case 1
+        case 2:
+            printf("Case 2\n");
+            break;  // Exit switch after case 2
+        case 3:
+            printf("Case 3\n");
+            break;  // Exit switch after case 3
+        default:
+            printf("Default case\n");
+    }
+    return 0;
+}
